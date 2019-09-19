@@ -1,0 +1,148 @@
+
+
+
+.dark{
+
+position:fixed;
+width:100%;
+height:100%;
+background-color: rgba(0,0,0,0.8);
+display:none;
+z-index:999;
+
+}
+
+
+.dark .dark_box{
+
+max-width:600px;
+width:50%;
+min-height:200px;
+max-height:400px;
+background-color: white;
+    margin:0 auto;
+    margin-top:6%;
+    padding:10px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.dark .dark_box img{
+    float:left;
+    margin-right:8px;
+}
+
+.dark .dark_box .box2 .box .insideImg{
+
+    width:100%;
+    float:left;
+   
+}
+
+
+.dark .dark_box .box2 .box .insideImg img{ 
+         /* cart img size*/
+    width:80px;
+    height:80px;
+margin-left:42.5%;
+
+    }
+    .dark .dark_box .box2 .box .insideTitle{          /* cart img size*/
+  
+  width:100%;
+  float:left;
+        
+    }
+
+
+
+    .dark .dark_box .box2 .box .insideLeft{
+       
+float:left;
+width:100%;
+      }
+
+
+    .dark .dark_box .box2 .box .insideRight{
+        float:left;
+        width:100%;
+        
+        
+      }
+    .dark .dark_box .box2 .box:hover{
+        background-color:skyblue;
+        
+      }
+
+
+
+
+
+
+      .dark .dark_box .box2 .box3 .insideImg{
+
+        width:100%;
+        float:left;
+        
+    }
+    
+    
+    .dark .dark_box .box2 .box3 .insideImg img{ 
+             /* cart img size*/
+        width:80px;
+        height:80px;
+    margin-left:42.5%;
+   
+    
+        }
+        .dark .dark_box .box2 .box3 .insideTitle2{          /* cart img size*/
+      
+      width:100%;
+      float:left;
+          
+        }
+    
+    
+    
+        .dark .dark_box .box2 .box3 .insideBottom{
+           
+            
+    float:left;
+    width:100%;
+          }
+    
+    
+        
+
+
+
+
+
+
+.dark .dark_box button{
+
+
+    cursor:pointer;
+}
+
+
+.dark_button{
+
+position:fixed;
+width:50%;
+max-width:582.5px;
+margin:0 auto;
+background:skyblue;
+margin-top:410px;
+height:22px;
+
+
+}
+
+.dark_button button{
+
+width:100%;
+border:none;
+background-color:skyblue;
+font-weight:900;
+border:1px solid black;
+}

@@ -1,0 +1,380 @@
+*{
+    margin-top:0;
+    box-sizing:border-box;
+}
+body{
+    margin:0 auto;
+    font-family: verdana;
+
+
+
+}
+
+
+.container-fluid{
+
+
+    width:100%;
+    
+}
+
+.container{
+
+    min-height:60px;
+    max-width:1360px;
+    margin:0 auto;
+
+
+}
+
+.outLine{
+
+    float:left;
+    background-color:rgb(31, 31, 46);
+    height:15px;
+    width:100%;
+}
+
+
+nav{
+float:left;
+background-color:rgb(61, 61, 77);
+min-height:40px;
+
+}
+
+nav .navButton{
+    margin-top:40px;
+    border:none;
+    background-color:rgb(61, 61, 77);
+    min-width:30px;
+    font-size:15px;
+color:white;
+}
+nav .navButton:hover{
+   text-decoration:underline;
+
+}
+nav button .menuButtonNav{
+margin-left:8%;
+
+}
+
+
+
+nav .translateDiv{
+    width:40px;
+float:right;
+height:70px;
+
+}
+
+nav .translateDiv img{
+
+    height:20px;
+    width:20px;
+float:bottom;
+
+
+}
+
+
+nav .translateDiv button{
+background-color:rgb(61, 61, 77);
+border:none;
+margin-top:30px;
+
+
+}
+
+nav .translateDiv .langName{
+float:left;
+
+margin-left:4px;
+}
+
+nav .myCartDiv{
+
+float:right;
+margin-right:1%;
+width:5.5%;
+
+}
+nav .myCartDiv .cartIsCart{
+margin-top:50px;
+float:right;
+
+
+}
+
+
+nav .myCartDiv .cartButton{
+   
+   width:8%;
+   margin-top:0.8%;
+   background-color:rgb(61, 61, 77);
+   border:none;
+  
+   
+}
+
+nav .myCartDiv .cartButton img{
+    
+   height:35px;
+   width:35px;
+  
+
+}
+nav .myCartDiv .cartButton .cartItems{
+ margin-left:5%;
+ font-size:30px;
+
+}
+
+
+
+header{
+    margin-top:1px;;
+    float:left;
+    min-height:50px;
+}
+
+header img{
+
+width:100%;
+height:220px;
+
+}
+
+
+
+
+
+main{
+    float:left;
+    background-color:white;
+   
+
+}
+
+
+
+
+.bottomNav{
+
+background-color:rgb(64, 64, 92);
+float:left;
+width:100%;
+height:40px;
+}
+
+.bottomNav .backToTop{
+    background-color:rgb(64, 64, 92);
+width:100%;
+border:none;
+height:40px;
+font-size:20px;
+}
+
+
+
+footer{
+    float:left;
+    background-color:rgb(31, 31, 46);
+    min-height:370px;
+   
+}
+
+
+footer .footerDiv{
+
+float:left;
+
+width:20%;
+text-align:center;
+color:white;
+padding-top:5%;
+}
+
+footer .footLeft{
+    margin-left:10%;
+}
+
+
+footer .footerDiv div{
+margin-top:20px;
+
+}
+footer .footerDiv h2{
+margin-top:30px;
+
+}
+
+
+
+.main_box{
+
+    margin-top:25px;
+    margin-left:5%;
+    
+       
+}
+
+.main_box2{
+
+    margin-top:25px;
+       display:none;
+}
+
+
+
+.container .sectionButton{
+
+margin-top:35px;
+width:50%;
+height:30px;
+overflow: hidden;
+padding-left:5%;
+padding-top:5px;
+
+
+}
+
+
+
+.container .sectionButton button{
+
+    font-weight:900;
+    height:30px;
+    width:70px;
+    background-color:darkgrey;
+    border-color:gray;
+}
+
+
+
+
+
+h1{
+    margin: 5px;
+    text-align: center;
+    
+}
+
+h2{
+  margin: 5px ;  
+  font-size: 1.4em;
+}
+
+
+
+
+.container .box{            /*laptops box*/
+    width:33%;
+ min-height:100px;
+ max-height:370px;
+    border-bottom: 1px solid appworkspace;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition:0.8s;
+    cursor: pointer;
+   float:left;
+   border-radius:20px;
+   font-size:10px;
+    
+}
+
+.insideImg{
+
+    float:left;
+    width: 100%;
+   
+    min-height:50px;
+
+}
+
+
+.box .insideImg img{        /*laptops img*/
+    float: left;
+  
+    margin-left: 24%;
+    width: 200px; 
+    height:150px;
+    
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    transition: 0.8s;
+}
+
+
+.insideTitle{
+float:left;
+min-height:50px;
+width:100%;
+font-weight:700;
+text-align:center;
+
+}
+
+
+main .container .main_box .box .insideLeft{
+    
+float:left;
+min-height:170px;
+width:49%;
+}
+
+main .container .main_box .box .insideRight{
+float:left;
+min-height:170px;
+width:49%;
+color:black;
+}
+
+
+.box:first-of-type {   /*laptops attr*/
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    
+}
+
+.box:last-of-type {      /*laptops attr*/
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    
+}
+
+
+
+.box img:hover{    /*laptops img hover*/
+    transform: scale(1.1,1.1);
+}
+
+
+.box:hover{              /* laptops hover*/
+    background-color: skyblue;
+}
+
+.box h3{            /*laptops h3*/
+    color:navy;
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+   *{
+       width:100%;
+   }
+
+
+}
+
+
+
+

@@ -1,0 +1,173 @@
+*{
+    margin-top:0;
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: verdana;
+
+background-image:url("../_images/blur.jpg");
+background-image:no-repeat;
+
+
+}
+
+
+
+.container-fluid{
+width:100%;
+
+}
+
+
+.container{
+
+
+    max-width:1160px;
+    min-height:100px;
+    margin:0 auto;
+    
+   
+}
+
+header{
+    margin-top:1px;
+float:left;
+
+min-height:70px;
+
+}
+
+
+header img{
+    width:100%;
+    height:140px;
+}
+
+nav{
+    float:left;
+    background-color:rgb(61, 61, 77);
+    height:50px;
+    padding-top:20px;
+
+}
+
+nav button{
+
+    border:none;
+    background-color:rgb(61, 61, 77);
+    min-width:30px;
+    font-size:15px;
+    font-weight:700;
+
+
+}
+
+
+
+main{
+    
+    
+    
+    padding: 10px;
+    
+    
+    overflow: hidden;
+ font-weight:900;
+    color:black;
+    border-radius:30px;
+    padding:30px;
+  
+  
+}
+
+
+.container form{
+
+text-align:center;
+
+}
+
+.container form input{
+
+margin-left:20px;
+
+}
+
+
+.container form .input1{
+
+    margin-left:144px;
+}
+
+.container form .input2{
+
+    margin-left:101px;
+}
+.container form .input3{
+
+    margin-left:147px;
+}
+.container form .input4{
+
+    margin-left:79px;
+}
+.container form .input5{
+
+   
+}
+.container form .input6{
+
+    margin-left:88.5px;
+}
+.container form .input7{
+
+    margin-left:87px;
+}
+
+
+.container form .input8{
+
+    margin-left:131px;
+}
+.container form .input9{
+
+    margin-left:168px;
+}
+.container form .input10{
+
+    margin-left:36.5px;
+}
+.container form .input11{
+
+    margin-left:118.5px;
+}
+
+
+.submitBtn{
+
+
+  
+    margin-top:50px;
+    width:80px;
+    height:50px;
+    background-color:antiquewhite;
+    border-color:antiquewhite;
+    font-weight:700;
+}
+
+
+
+.shipAddress{
+
+    margin-top:50px;
+}
+
+
+footer{
+
+float:left;
+    background-color:rgb(32, 32, 39);
+
+
+}

@@ -1,0 +1,37 @@
+[
+        
+	{
+      "name":"Logitech MK710 Wireless Keyboard and Mouse",
+	  "brand":"Logitech",
+	  "warranty":"3Y",
+	  "price":"200",
+	  "img":"https://images-na.ssl-images-amazon.com/images/I/51WyRUhKfeL._SX425_.jpg"
+	  
+},
+
+	{
+      "name":"Apple Wireless Keyboard and Magic Mouse 2",
+	  "brand":"Apple Inc",
+	  "warranty":"1Y",
+	  "price":"350",
+	  "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4XsKGuaUDQXZd0MxNTp53SCYY36hFaj1tRUR6rom2a3IrqlkL"
+},
+
+	{
+      "name":"Microsoft Wireless Comfort Desktop 5050",
+	  "brand":"Microsoft",
+	  "warranty":"3Y",
+	  "price":"250",
+	  "img":"https://cf3.s3.souqcdn.com/item/2016/05/24/10/80/96/62/item_XL_10809662_14522027.jpg"
+},
+
+	{
+      "name":"HP Wireless Elite Keyboard v2 and Mouse",
+	  "brand":"HP",
+	  "warranty":"2Y",
+	  "price":"150",
+	  "img":"https://images-na.ssl-images-amazon.com/images/I/815P1vRWKyL._SX466_.jpg"
+}
+
+
+]

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="_styles/style.css">
+    <title>pay now</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="_script/script.js"></script>
+</head>
+<body>
+
+
+    
+    <nav class="container-fluid">
+       <div class="container">
+            <button>Menu</button>
+            <button>Account Details</button>
+            <button>Info</button>
+            <button>About</button>
+        
+       </div>
+        </nav>
+
+        <header class="container-fluid">
+           
+                <div class="container">
+
+                <img src="_images/air.jpg" alt="broken mail logo">
+            </div>
+            </header>
+        
+    
+    <main   class="container-fluid">
+        <div class="container">
+            <form>
+
+            <div class="payment">
+                    
+                    <h2>Payment information:</h2>
+                <label>Name:</label>
+                <input class="input1" type="text" id="id_name">
+                <br>
+                <label>Last Name:</label>
+                <input class="input2" type="text" id="id_last">
+                <br>
+                <label>Email:</label>
+                <input class="input3" id="id_email1" type="email" onInput="onCheckEmail()">
+                <br>
+                <label>Repeat Email:</label>
+                <input class="input4" id="id_email2" type="email" onInput="onCheckEmail()">
+                <br>
+                <label>Credit Card Number:</label>
+                <input class="input5" type="text" id="id_credit">
+                <br>
+                <label>3 Digit Code:</label>
+                <input class="input6" type="text" id="id_digit">
+                <br>
+                <label>Personal ID:</label>
+                <input class="input7" type="text" id="id_pId">
+                   
+                
+
+                </div>
+                
+                
+
+
+
+        <div class="shipAddress">
+
+<h2>Shipping Adress:</h2>
+<label>Country:</label>
+<input class="input8" type="text" id="id_country">
+<br>
+<label>City:</label>
+<input class="input9" type="text" id="id_city">
+<br>
+<label>Street&Apartment:</label>
+<input class="input10" type="text" id="id_street">
+<br>
+<label>Zip Code:</label>
+<input class="input11" type="text" id="id_zip">
+
+</div>
+
+
+<button class="submitBtn" onClick="onSaveInfo()">Submit Order</button>
+</form>
+</div>
+</main>
+
+
+
+<footer class="container-fluid">
+<div class="container">
+
+</div>
+
+</footer>
+</body>
+</html>
